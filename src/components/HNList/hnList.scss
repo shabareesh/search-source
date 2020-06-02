@@ -1,0 +1,21 @@
+.hn-list-container {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 1px solid #d1d5da;
+}
+
+.hn-list {
+  display: flex;
+  border-bottom: 1px solid #d1d5da;
+
+  &--title {
+    flex: 1;
+    padding: 10px;
+    border-right: 1px solid #d1d5da;
+  }
+
+  &--author {
+    flex-basis: 200px;
+    padding: 10px;
+  }
+}
